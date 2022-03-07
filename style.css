@@ -1,0 +1,234 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    color: #333;
+    list-style: none;
+}
+a {
+    color: #333;
+    display: block;
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+body {
+    width: 1200px;
+    height: 700px;
+    border: 1px solid;
+}
+#head {
+    width: 1200px;
+    height: 100px;
+}
+.logo {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    float: left;
+}
+.logo img {
+    width: 200px;
+    height: 100px;
+}
+.nav {
+    width: 600px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    z-index: 99;
+    position: relative;
+}
+.nav li {
+    width: 150px;
+    background-color: #30a3f3;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    text-align: center;
+}
+.nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.nav li ul {
+    display: none;
+}
+.nav li ul li {
+    background-color: #fff;
+}
+#main {
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+.slide ul {
+    width: 3600px;
+    position: relative;
+}
+slide ul li {
+    width: 1200px;
+    position: absolute;
+    float: left;
+}
+.slide ul li img {
+    width: 1200px;
+    height: 300px;
+}
+#contents {
+    width: 1200px;
+    height: 200px;
+}
+.tab {
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+.name {
+    width: 400px;
+    height: 50px;
+    float: left;
+}
+.name li {
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #0066ad;
+    text-align: center;
+    border: 1px solid;
+    border-left: none;
+}
+.name li a {
+    color: #fff;
+}
+.name li.on {
+    background-color: #fff;
+    border-bottom: none;
+}
+.name li.on a {
+    color: #333;
+}
+.table {
+    width: 400px;
+    height: 150px;
+    float: left;
+    position: relative;
+    border-bottom: 1px solid;
+}
+.note {
+    float: left;
+    padding-top: 23px;
+    padding-left: 15px;
+}
+.gal {
+    position: absolute;
+    top: 38px;
+    left: 3px;
+    display: none;
+}
+.gal img {
+    width: 120px;
+    padding-left: 5px;
+}
+.banner {
+    width: 400px;
+    height: 200px;
+    float: left;
+    position: relative;
+}
+.banner img {
+    width: 400px;
+    height: 200px;
+}
+.banner p {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: #fff;
+}
+.link {
+    float: left;
+    width: 400px;
+    height: 200px;
+    position: relative;
+}
+.link img {
+    width: 400px;
+    height: 200px;
+}
+.link ul {
+    position: absolute;
+    top: 55px;
+    left: 23px;
+}
+.link ul li {
+    float: left;
+    margin-left: 30px;
+}
+.link ul li a {
+    float: left;
+    text-align: center;
+}
+.link ul li img {
+    width: 80px;
+    height: 60px;
+}
+.pop {
+    width: 400px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid;
+    position: absolute;
+    top: 150px;
+    left: 40%;
+    display: none;
+}
+.pop h3 {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-style: 1.4em;
+}
+.text {
+    padding-left: 20px;
+}
+.close {
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid;
+    float: right;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+#foot {
+    width: 1200px;
+    height: 100px;
+}
+.flogo {
+    float: left;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+.flogo img {
+    width: 200px;
+    height: 100px;
+}
+.menu {
+    float: right;
+    width: 800px;
+    height: 30px;
+}
+.menu li {
+    float: left;
+    width: 200px;
+    height: 30px;
+    line-height: 30;
+}
+.copy {
+    width: 800px;
+    height: 70px;
+    float: right;
+    text-align: center;
+}
